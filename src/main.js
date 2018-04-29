@@ -28,8 +28,8 @@ function paintSettings () {
 
 function paintMap() {
 	day = document.getElementById('text-input-day').value;
-	month = document.getElementById('slider-month').value;
-	year = document.getElementById('slider-year').value;
+	month = document.getElementById('text-input-month').value;
+	year = document.getElementById('text-input-year').value;
 
 	var url = 'https://img1.niftyimages.com/sgf/7km/t2b?dt=4/30/2018' + month + "/" + day + "/" + year;
 
