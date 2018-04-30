@@ -102,7 +102,7 @@ function paintMap() {
 
 	var url = 'https://img1.niftyimages.com/sgf/7km/t2b?dt=' + month + "/" + day + "/" + year;
 
-	sdk.setContent('<img src="' + url + '" /><br />%%Last Name%%');
+	sdk.setContent('<img src="' + url + '" />');
 	sdk.setData({
 		day: day,
 		month: month,
